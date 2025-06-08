@@ -1,0 +1,21 @@
+ <div class="bg-white rounded-3xl p-5 mb-5 shadow-md">
+            <h1 class="text-lg md:text-2xl font-bold">{{this.projectName}}</h1>
+            <div class="flex p-2 md:p-5 flex-col lg:flex-row">
+                <div class="w-full lg:w-1/2 flex items-start lg:items-center lg:justify-center "><a
+                        href="{{this.liveDemoLink}}">
+                        <img class="lg:w-[26rem] w-[18rem] object-cover h-[10rem] md:w-[20rem] md:h-[14rem] rounded-3xl lg:h-[14rem]" src="../../assets/{{this.projectImagePath}}.png"
+                            alt="{{this.projectImagePath}}">
+                    </a></div>
+                <div class="w-full lg:w-1/2 flex flex-col justify-center">
+                    <h2 class="md:text-lg"><b>Tech Stack :</b><span> {{this.techStack}}</span></h2>
+                    <h2 class="md:text-lg font-bold">Description:</h2>
+                    <p class="mb-3">{{this.Description}}</p>
+                    <a class="text-lg font-semibold text-blue-400" href="{{this.liveDemoLink}}">
+                        <h2>🔗 Live Demo</h2>
+                    </a>
+                    <a class="text-lg font-semibold  text-blue-400" href="{{this.repoLink}}">
+                        <h2>💻 GitHub Repo</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
